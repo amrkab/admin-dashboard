@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.svg{
+    width: 20px;
+}
+
+div.container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
+    min-height: 100vh;
+}
+
+
+
+div.header{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+div.top-header{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr 1fr 1fr;
+}
+
+.top-header>div{
+    display: grid;
+    align-items: center;
+}
+
+.search-icon, .noti-icon{
+    justify-content: right;
+}
+
+.small-pfp{
+    justify-content: center;
+}
+
+.name-small{
+    justify-content: left;
+}
+
+.top-header-input{
+    margin: 20px;
+}
+
+div.bottom-header{
+    display: grid;
+    grid-template-columns: 1fr 4fr repeat(3, 1fr);
+}
+
+.bottom-header>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-header>.big-pfp{
+    justify-content: right;
+}
+
+.bottom-header>.name-big{
+    justify-content: left;
+    margin: 20px;
+}
+
+
+
+
+
+
+div.sidebar{
+    grid-row: span 2;
+    display: grid;
+    grid-template-rows: 1fr 8fr;
+}
+.sidebar-title{
+    font-size: 35px;
+}
+
+div.pages-container{
+    display: grid;
+    grid-template-rows: repeat(10, 50px);
+}
+
+.pages-communities{
+    grid-row: span 2;
+}
+
+div.article{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+div.cards{
+    margin: 20px;
+    grid-row: span 2;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
+
+div.cards-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 25px;
+}
+
+
+div.announcements{
+    margin: 20px;
+
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
+
+div.announcements-title{
+    display: grid;
+    align-items: center;
+    font-size: 24px;
+}
+
+
+div.news-container{
+    display: grid;
+}
+
+.news-container div{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+div.trending{
+    margin: 20px;
+
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
+
+div.trending-title{
+    display: grid;
+    align-items: center;
+    font-size: 24px;
+}
+
+
+div.tags-container{
+    display: grid;
+}
+
+.tags-container div{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}

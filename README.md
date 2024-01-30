@@ -1,1 +1,1 @@
-# admin-dashboard
+This project demonstrates intermediate ability in HTML and CSS
